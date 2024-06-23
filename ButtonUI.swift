@@ -12,7 +12,6 @@ struct ButtonUI: View {
     @State private var btnTapped = 0
     var body: some View {
         Button(action: {
-            btnTapped += 1
             print("タップ")
         }){
             Image("Image")
